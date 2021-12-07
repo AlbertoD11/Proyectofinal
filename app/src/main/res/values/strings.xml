@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tu restaurante en un click</string>
+    <string name="email_blanco">Introduce email</string>
+    <string name="pass_lenght">Contraseña demasiado corta</string>
+    <string name="pass_blanco">Introduce la contraseña</string>
+    <string name="error_usuario_invalido">Usuario y contraseña son incorrectos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

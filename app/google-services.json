@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "87258159248",
+    "project_id": "proyecto-final-a5c1c",
+    "storage_bucket": "proyecto-final-a5c1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87258159248:android:e0e6e88b5f4c2707ef2015",
+        "android_client_info": {
+          "package_name": "com.restauranteclick.turestauranteenunclick"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87258159248-mjvmfg6tuiucid67iof9e9mkcm8bh2bi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3i58sMguGNUHAk0rhMjsKT9pur8rPM4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87258159248-mjvmfg6tuiucid67iof9e9mkcm8bh2bi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

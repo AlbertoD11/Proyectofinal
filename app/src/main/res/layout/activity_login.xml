@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    >
+
+
+
+    <ImageView
+        android:id="@+id/iconorestaurante"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/icons8_restaurant_96" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido a tu restaurante en un click"
+        android:layout_below="@id/iconorestaurante"
+        android:textAlignment="center"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etEmailId"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginTop="80dp"
+        android:textColor="#FF6600"
+        android:layout_below="@id/iconorestaurante"
+        android:padding="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:inputType="textEmailAddress"
+        app:startIconDrawable="@android:drawable/ic_dialog_email"
+        app:endIconTint="@color/color_primary"
+        android:drawablePadding="6dp"
+        android:maxLines="1">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/testmail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textEmailAddress" />
+
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etPassword"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        app:endIconMode="password_toggle"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:textColor="#FF6600"
+        android:layout_below="@id/etEmailId"
+        android:padding="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        app:startIconDrawable="@android:drawable/ic_lock_idle_lock"
+        android:drawablePadding="6dp"
+        android:maxLines="1" >
+        <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/testpassword"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="textPassword" /></com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginRight="30dp"
+
+        android:text="Acceder"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtForgotPassword"
+        android:layout_width="426dp"
+        android:layout_height="33dp"
+        android:layout_below="@id/btnLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:gravity="center"
+        android:text="Olvidaste contraseña?"
+        android:textSize="16.5sp"
+        android:textStyle="bold"
+       />
+
+    <TextView
+        android:id="@+id/txtRegisterNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtForgotPassword"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="-3dp"
+        android:gravity="center"
+        android:text="No tienes cuenta? Registrate ahora"
+        android:textSize="16.5sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
